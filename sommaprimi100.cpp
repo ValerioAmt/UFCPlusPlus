@@ -6,9 +6,15 @@ using namespace std
 
 int main(){
 
-int x = 0;
-int y = 0;
-calcolaSomma(x,y)
+
+int totale = 0;
+
+for (int i=0; i <=100; i++){
+
+    totale += i;
+}
+
+cout << "Questa è la somma dei primi 100 numeri reali." cout << totale
 
 
 
