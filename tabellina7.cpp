@@ -8,13 +8,13 @@ int main()
 {
  int i;
  int tabellina;
- int x = 10;
-  for (i = 1; i < x; i++); {
+ const int x = 10;
+  for (i = 0; i < x; i++); {
   
 
      
-     tabellina = i;
-     cout << tabellina <<"\n";
+     
+     cout << 7 * i <<"\n";
   }
 
 
