@@ -8,13 +8,15 @@ int main()
 {
  int i;
  int tabellina;
-  for (i = 1; i < 10; i++); {
+ int x = 10;
+  for (i = 1; i < x; i++); {
   
 
      
      tabellina = i;
+     cout << tabellina <<"\n";
   }
 
-cout << tabellina;
+
   
 }
