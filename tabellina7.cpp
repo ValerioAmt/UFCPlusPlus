@@ -8,7 +8,7 @@ int main()
 {
  int i;
  int tabellina;
-  for (i = 1; i > 10; i++); {
+  for (i = 1; i < 10; i++); {
   
 
      
