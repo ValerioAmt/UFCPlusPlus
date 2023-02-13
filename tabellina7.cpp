@@ -6,17 +6,13 @@ using namespace std;
 
 int main()
 {
- int i;
- int tabellina;
- const int x = 10;
-  for (i = 0; i < x; i++); {
+ 
+ 
+      for (int i = 1; i <= 10; i++){
+      
+      cout << "7 x "<< i << "=" << 7 * i <<"\n";
   
+      }
 
      
-     
-     cout << "7 x "<< i << "=" << 7 * i <<"\n";
-  }
-
-
-  
 }
