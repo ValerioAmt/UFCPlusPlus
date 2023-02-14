@@ -11,5 +11,5 @@ int x = 0;
       totale = totale + sqrt(x); 
       x ++;
      }
-     cout << totale;
+     cout << totale << endl;
 }
