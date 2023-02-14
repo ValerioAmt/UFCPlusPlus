@@ -14,7 +14,8 @@ for (int i=0; i <=100; i++){
     totale = totale + i;
 }
 
-cout << "Questa è la somma dei primi 100 numeri reali ------>   "  <<    totale <<  endl;
+    cout << "Questa è la somma dei primi 100 numeri reali ------>   "  <<    totale <<  endl;
+
 
 
 
