@@ -106,9 +106,11 @@ bool isEven(int x){
 bool isBetween(int a, int b, int c){
 
    if (b>a && b<c){
-            cout << true
+         return true;
    }
-
+    else{
+      return  false;
+    }
 }
 
 
