@@ -35,17 +35,17 @@ void stampaTabellina(int x)
               }
    }
     */
-int anni;
+int eta;
 void buttaFuori(int eta)
 {
-    
-    if (anni >= 18)
+
+    if (eta >= 18)
     {
-        cout << "Prego, puoi entrare";
+        cout << "Prego, puoi entrare " << endl;
     }  
         else
         {
-            cout << "Mi dispiace, sei troppo giovane";
+            cout << "Mi dispiace, sei troppo giovane" << endl;
         }
     }
 
