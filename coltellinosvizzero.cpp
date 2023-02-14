@@ -23,21 +23,20 @@ void stampaTabellina(int x)
     }
 
     */
-    int x;
-    int y;
+   int max = 0;
 
-   int piuGrande(int x, int y){}  
+   int piuGrande(int x, int y){  
            if (x > y){            
-              cout << x << "è piu grande di "  << y;
+              max = x;
            }
               else{
-                       cout << y << "è piu grande di " << b;
+               max = y;
+              return max; 
               }
-           
-   
+   }             
    int main(){
 
-     piuGrande(6, 22);
+     int numeropiugrande = piuGrande(6, 22);
 
 
 
