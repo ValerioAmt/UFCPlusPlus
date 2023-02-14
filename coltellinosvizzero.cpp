@@ -23,57 +23,57 @@ void stampaTabellina(int x)
     }
 */
 
-   int max ;
 
-   int piuGrande(int x, int y){
-           if (x > y){
-              max = x;
-           }
-              else{
-               max = y;
-              
-            }
-            return max;
-   }
-    
 
-             
-             /* Funzione butta fuori  
+int piuGrande(int x, int y)
+{    
+    int max;
+    if (x > y)
+    {
+        max = x;
+    }
+    else
+    {
+        max = y;
+    }
+    return max;
+}
+
+/* Funzione butta fuori
 int eta;
 void buttaFuori(int eta)
 {
 
-    if (eta >= 18)
-    {
-        cout << "Prego, puoi entrare " << endl;
-    }  
-        else
-        {
-            cout << "Mi dispiace, sei troppo giovane" << endl;
-        }
-    }
-            */
+if (eta >= 18)
+{
+cout << "Prego, puoi entrare " << endl;
+}
+else
+{
+cout << "Mi dispiace, sei troppo giovane" << endl;
+}
+}
+*/
+/*
+int minore;
+void decrescente(int a, int b, int c) {
+    minore = a;
+    if (minore > b && b > c)
+           cout << c << b << a;
+         else if(minore < b && b > c){
+            cout << a << b << c;
 
-   int minore;
-   void decrescente(int a, int b, int c) {
-         minore = a;
-         if (minore > b && b > c)
-                cout << c << b << a;
-              else if(minore < b && b > c){
-                 cout << a << b << c;
-                                 
-              }   
-                                   
+         }
 
-   }
 
+}
+ */
 int main()
 {
-   /* buttaFuori(5);
-    return 0;
-*/
-   decrescente(7,39,44);
-      
+    /* buttaFuori(5);
+     return 0;
+ */
 
-
+   int maggiore = piuGrande(3, 4);
+   
 }
