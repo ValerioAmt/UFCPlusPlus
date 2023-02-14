@@ -2,7 +2,7 @@
 #include <math.h>
 
 using namespace std;
-
+/*
 // stampa tabellina
 int i = 1;
 int tabellina = 0;
@@ -21,3 +21,25 @@ void stampaTabellina(int x)
     {
         stampaTabellina(5);
     }
+
+    */
+    int x;
+    int y;
+
+   int piuGrande(int x, int y){}  
+           if (x > y){            
+              cout << x << "è piu grande di "  << y;
+           }
+              else{
+                       cout << y << "è piu grande di " << b;
+              }
+           
+   
+   int main(){
+
+     piuGrande(6, 22);
+
+
+
+
+   }
