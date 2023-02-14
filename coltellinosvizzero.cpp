@@ -35,7 +35,8 @@ void stampaTabellina(int x)
               }
    }
     */
-             //Funzione butta fuori  
+             
+             /* Funzione butta fuori  
 int eta;
 void buttaFuori(int eta)
 {
@@ -49,14 +50,28 @@ void buttaFuori(int eta)
             cout << "Mi dispiace, sei troppo giovane" << endl;
         }
     }
+            */
 
+   int minore;
+   void decrescente(int a, int b, int c) {
+         minore = a;
+         if (minore > b && b > c)
+                cout << c << b << a;
+              else if(minore < b && b > c){
+                 cout << a << b << c;
+                                 
+              }   
+                                   
+
+   }
 
 int main()
 {
    /* buttaFuori(5);
     return 0;
 */
-
+   decrescente(7,39,44);
+      
 
 
 }
