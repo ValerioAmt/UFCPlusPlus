@@ -3,7 +3,7 @@
 
 using namespace std;
 
-
+/*
 void stampaTabellina(int x)
 // stampa tabellina
 
@@ -19,7 +19,7 @@ int x = 0;
     }
 }
 
-int piuGrande(int x, int y)
+int  piuGrande(int x, int y)
 {    
     int max;
     if (x > y)
@@ -90,8 +90,18 @@ cout << "l'equazione non ha soluzioni reali"; << endl;
 
 }
       
+bool isEven(int x){
 
-
+    int resto = 0;
+    if (resto % 2 == 0){
+      cout << x <<"  è pari\n";
+    }
+    else  {
+      cout << x << "è dispari\n";
+  }
+        
+}
+*/
 
 
 
@@ -99,7 +109,6 @@ cout << "l'equazione non ha soluzioni reali"; << endl;
 int main()
 {
   
-
 
 
 
