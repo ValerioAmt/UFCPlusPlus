@@ -3,30 +3,21 @@
 
 using namespace std;
 
-
-int i = 0;
+// stampa tabellina
+int i = 1;
 int tabellina = 0;
 int x = 0;
 
- int stampaTabellina(int x) { 
-      for (int i == O; i <= 10; i++){
-      tabellina = i * x;
-      return  tabellina;
-      }
-
-
-
-
-
-
-int main(){
-
-
-
-
-
-
-
-
-
+void stampaTabellina(int x)
+{
+    for (int i == 1;i <= 10; i++)
+    {
+        tabellina = i * x;
+        
+        cout << tabellina;
+    }
 }
+    int main()
+    {
+        stampaTabellina(5);
+    }
