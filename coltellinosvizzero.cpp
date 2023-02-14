@@ -35,6 +35,7 @@ void stampaTabellina(int x)
               }
    }
     */
+             //Funzione butta fuori  
 int eta;
 void buttaFuori(int eta)
 {
@@ -52,6 +53,6 @@ void buttaFuori(int eta)
 
 int main()
 {
-    buttaFuori(22);
+    buttaFuori(5);
     return 0;
 }
