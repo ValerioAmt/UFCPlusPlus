@@ -53,6 +53,10 @@ void buttaFuori(int eta)
 
 int main()
 {
-    buttaFuori(5);
+   /* buttaFuori(5);
     return 0;
+*/
+
+
+
 }
