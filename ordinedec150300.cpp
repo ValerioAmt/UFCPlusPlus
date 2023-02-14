@@ -11,8 +11,8 @@ int main()
     for (int i = 300; i >= 150; i--)
     {                  // considero i numeri chiesti partendo da 300 a scendere verso 150
         num = num + i; //
-        if (num % 3 == 0)
-        {
+           if (num % 3 == 0)
+         {
             cout << i << endl;
         }
          
