@@ -21,9 +21,9 @@ void stampaTabellina(int x)
     {
         stampaTabellina(5);
     }
+*/
 
-
-   int max = 0;
+   int max ;
 
    int piuGrande(int x, int y){
            if (x > y){
@@ -31,10 +31,12 @@ void stampaTabellina(int x)
            }
               else{
                max = y;
-              return max;
-              }
+              
+            }
+            return max;
    }
-    */
+    
+
              
              /* Funzione butta fuori  
 int eta;
