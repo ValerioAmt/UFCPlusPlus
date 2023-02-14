@@ -88,6 +88,26 @@ void decrescente(int a, int b, int c) {
 */
 
 
+void equazione(int a, int b, int c){
+double x1, x2;
+double delta = b * b - 4 * a * c;
+if (delta<0){
+cout << "l'equazione non ha soluzioni reali"; << endl;
+} else if (delta == 0){
+    double x = -b/(2*a);
+
+} else {
+    double x1 = (-b + sqrt(delta))/(2*a);
+    double x2 = (+b + sqrt(delta))/(2*a);
+}
+    cout <<"l'equazione presenta due soluzioni   " <<x1 << "e" << x2;
+
+}
+      
+
+
+
+
 
 
 int main()
@@ -106,7 +126,7 @@ int main()
       return true;
 */
 
-
+equazione(8,4,2);
 
 
 
