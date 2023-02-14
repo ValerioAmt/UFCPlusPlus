@@ -1,6 +1,8 @@
 #include <iostream>
+#include <math.h>
 
 using namespace std;
+
 
 int i = 0;
 int tabellina = 0;
@@ -11,11 +13,28 @@ int x = 0;
       tabellina = i * x;
       return  tabellina;
       }
- }
-int main()
-{
-       cout << "Inserisci un numero";
-       cin >> x;
-    stampaTabellina(5);
-    return tabellina;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+int main(){
+
+
+
+
+
+
+
+
+
 }
