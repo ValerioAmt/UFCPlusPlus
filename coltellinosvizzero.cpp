@@ -13,7 +13,7 @@ void stampaTabellina(int x)
     for (int i == 1;i <= 10; i++)
     {
         tabellina = i * x;
-        
+
         cout << tabellina;
     }
 }
@@ -22,23 +22,36 @@ void stampaTabellina(int x)
         stampaTabellina(5);
     }
 
-    */
+
    int max = 0;
 
-   int piuGrande(int x, int y){  
-           if (x > y){            
+   int piuGrande(int x, int y){
+           if (x > y){
               max = x;
            }
               else{
                max = y;
-              return max; 
+              return max;
               }
-   }             
-   int main(){
-
-     int numeropiugrande = piuGrande(6, 22);
-
-
-
-
    }
+    */
+int anni;
+void buttaFuori(int eta)
+{
+    
+    if (anni >= 18)
+    {
+        cout << "Prego, puoi entrare";
+    }  
+        else
+        {
+            cout << "Mi dispiace, sei troppo giovane";
+        }
+    }
+
+
+int main()
+{
+    buttaFuori(22);
+    return 0;
+}
