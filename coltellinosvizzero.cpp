@@ -24,7 +24,7 @@ void stampaTabellina(int x)
 */
 
 
-
+/*
 int piuGrande(int x, int y)
 {    
     int max;
@@ -39,7 +39,7 @@ int piuGrande(int x, int y)
     return max;
 }
 
-/* Funzione butta fuori
+ Funzione butta fuori
 int eta;
 void buttaFuori(int eta)
 {
@@ -64,16 +64,50 @@ void decrescente(int a, int b, int c) {
             cout << a << b << c;
 
          }
-
-
 }
  */
+ /*
+  void stampaNome(string nome){
+    
+    cout << nome;
+
+  }
+*/
+    /*
+      bool bisestile(int anno){
+       if (anno % 4 == 0 && anno % 100 =! 0 || anno % 400 == 0){
+       return true;
+       }
+       else {
+
+        return false;
+       }
+
+
+      }
+*/
+
+
+
+
 int main()
 {
     /* buttaFuori(5);
      return 0;
  */
-
+/*
    int maggiore = piuGrande(3, 4);
-   
+  
+   stampaNome(valerio);
+
+ */
+/*
+   bool bisestile(2023);
+      return true;
+*/
+
+
+
+
+
 }
