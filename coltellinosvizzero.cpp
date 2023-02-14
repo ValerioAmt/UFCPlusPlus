@@ -46,7 +46,7 @@ cout << "Mi dispiace, sei troppo giovane" << endl;
 }
 }
 
- void decrescente(int a, int b, int c) {
+void decrescente(int a, int b, int c) {
     minore = a;
     if (minore > b && b > c)
            cout << c << b << a;
@@ -56,13 +56,13 @@ cout << "Mi dispiace, sei troppo giovane" << endl;
          }
 }
 
- void stampaNome(string nome){
+void stampaNome(string nome){
     
     cout << nome;
 
   }
 
- bool bisestile(int anno){
+bool bisestile(int anno){
        if (anno % 4 == 0 && anno % 100 =! 0 || anno % 400 == 0){
        return true;
        }
@@ -98,19 +98,7 @@ cout << "l'equazione non ha soluzioni reali"; << endl;
 
 int main()
 {
-    /* buttaFuori(5);
-     return 0;
- */
-/*
-   int maggiore = piuGrande(3, 4);
   
-   stampaNome(valerio);
-
- */
-/*
-   bool bisestile(2023);
-      return true;
-*/
 
 
 
