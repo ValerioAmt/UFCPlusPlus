@@ -16,7 +16,7 @@ cout << "Inserisci  numero" << endl;
    for(int i ; i <= 10;i++ ){
       
        if (rif > max)
-             max += rif;
+             max = rif;
      }
          cout << "il numero maggiore inserito è :" << max;
 }
