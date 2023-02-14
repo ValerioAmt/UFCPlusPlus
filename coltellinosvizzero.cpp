@@ -2,14 +2,15 @@
 #include <math.h>
 
 using namespace std;
-/*
-// stampa tabellina
-int i = 1;
-int tabellina = 0;
-int x = 0;
+
 
 void stampaTabellina(int x)
-{
+// stampa tabellina
+
+
+{int i = 1;
+int tabellina = 0;
+int x = 0;
     for (int i == 1;i <= 10; i++)
     {
         tabellina = i * x;
@@ -17,14 +18,7 @@ void stampaTabellina(int x)
         cout << tabellina;
     }
 }
-    int main()
-    {
-        stampaTabellina(5);
-    }
-*/
 
-
-/*
 int piuGrande(int x, int y)
 {    
     int max;
@@ -39,8 +33,6 @@ int piuGrande(int x, int y)
     return max;
 }
 
- Funzione butta fuori
-int eta;
 void buttaFuori(int eta)
 {
 
@@ -53,10 +45,8 @@ else
 cout << "Mi dispiace, sei troppo giovane" << endl;
 }
 }
-*/
-/*
-int minore;
-void decrescente(int a, int b, int c) {
+
+ void decrescente(int a, int b, int c) {
     minore = a;
     if (minore > b && b > c)
            cout << c << b << a;
@@ -65,16 +55,14 @@ void decrescente(int a, int b, int c) {
 
          }
 }
- */
- /*
-  void stampaNome(string nome){
+
+ void stampaNome(string nome){
     
     cout << nome;
 
   }
-*/
-    /*
-      bool bisestile(int anno){
+
+ bool bisestile(int anno){
        if (anno % 4 == 0 && anno % 100 =! 0 || anno % 400 == 0){
        return true;
        }
@@ -85,8 +73,6 @@ void decrescente(int a, int b, int c) {
 
 
       }
-*/
-
 
 void equazione(int a, int b, int c){
 double x1, x2;
@@ -126,7 +112,7 @@ int main()
       return true;
 */
 
-equazione(8,4,2);
+
 
 
 
