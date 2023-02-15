@@ -2,10 +2,11 @@
 #include <string>
 
 using namespace std;
-string nome;
-bool ciSonoDoppie(){
-   for(int i = 0;i < nome.lenght ;i ++)
-     if (nome[i] == nome + 1){
+
+bool ciSonoDoppie(string ottagono){
+   
+   for(int i = 0;i < nome.lenght();i ++)
+     if (nome[i] == nome[i + 1] ){
          return true;
      }
      else {
@@ -16,7 +17,6 @@ bool ciSonoDoppie(){
 }
 
 int main(){
-    
-     ciSonoDoppie();
- return 0;
+   string
+  bool ciSonoDoppie()
 }
