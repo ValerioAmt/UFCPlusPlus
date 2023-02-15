@@ -141,7 +141,26 @@ bool isEven(int x){
         cout << tabellina << " ";
     }
 }
-*/
+*/  
+    double prezzo;
+    int interesse;
+
+    double costoTotale(double prezzo, int interesse){
+            cout << "inserisci il prezzo del prodotto";
+             cin >> prezzo;
+
+            cout <<"inserisci il tasso di interesse";
+            cin >> interesse;
+
+            
+
+            double totale = prezzo * interesse;
+            return totale;
+    }
+
+
+
+
 int main()
 {
     /* Prova funzione tabellina
@@ -153,6 +172,8 @@ int main()
       */
     // Prova bisestile
   //  bisestile(2023);
+  //Prova isBeetwen
+//isBeetwenn(25,56,5);
 
-  
+    double costoTotale(23.5, 5);
 }
