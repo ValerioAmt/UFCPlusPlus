@@ -5,22 +5,22 @@ using namespace std;
 
 /* Funzione che chiede in input un valore intero e non restituisce nulla.
 void stampaTabellina(int x)
-// stampa tabellina
 
 
-{int i = 1;
-int tabellina = 0;
-int x = 0;
-    for (int i == 1;i <= 10; i++)
+{
+    int tabellina = 0;
+
+    for (int i = 1; i <= 10; i++)
     {
         tabellina = i * x;
 
-        cout << tabellina;
+        cout << tabellina << " ";
     }
 }
+/*
 Funzione che dati due numeri interi in input restiuisce un intero.
 int  piuGrande(int x, int y)
-{    
+{
     int max;
     if (x > y)
     {
@@ -59,7 +59,7 @@ cout << "Mi dispiace, sei troppo giovane" << endl;
 
 /* Funzione che chiede in input una stringa e non restituisce nulla
 /*void stampaNome(string nome){
-    
+
       cout<< "Il tuo nome è"<<nome <<endl  ;
 
   }
@@ -77,7 +77,7 @@ bool bisestile(int anno){
 
 
       }
-  Funzione equazione avrà in input 3 int a,b,c e non restituisce niente    
+  Funzione equazione avrà in input 3 int a,b,c e non restituisce niente
 /*
 void equazione(int a, int b, int c){
 double x1, x2;
@@ -94,7 +94,7 @@ cout << "l'equazione non ha soluzioni reali"; << endl;
     cout <<"l'equazione presenta due soluzioni   " <<x1 << "e" << x2;
 
 }
- /*   Funzione che riceve in input un intero e non restituisce nulla.  
+ /*   Funzione che riceve in input un intero e non restituisce nulla.
 
 bool isEven(int x){
 
@@ -105,10 +105,10 @@ bool isEven(int x){
     else  {
       return x << "è dispari\n";
   }
-        
+
 }
 */
- // Funzione che chiede in input 3 int e restituisce un valore di tipo boolean.
+// Funzione che chiede in input 3 int e restituisce un valore di tipo boolean.
 /* bool isBetween(int a, int b, int c){
 
    if (b<a && b>c){
@@ -119,12 +119,27 @@ bool isEven(int x){
     }
 }
 */
-
-int main()
+/**/
+void stampaTabelline(int n, int m)
 {
-  
 
+    int tabellina = 0;
 
+    for (int i = 1; i <= m; i++)
+    {
+        tabellina = i * n;
 
+        cout << tabellina << " ";
+    }
+}    
+    int main()
+    {
+        /* Prova funzione tabellina
+        stampaTabellina(12);
+    */
+   /*
+          // Prova funzione tabellina 
+         stampaTabelline(3,5);
+     */    
 
-}
+    }
