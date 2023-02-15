@@ -17,4 +17,4 @@ for (int i = 0; i < 10; i++){
 }
       cout << "la parola inserità con piu caratteri è " << parolaPiuLunga << "\n";
         return 0;
-}
+}z
