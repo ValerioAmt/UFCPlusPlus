@@ -65,62 +65,71 @@ cout << "Mi dispiace, sei troppo giovane" << endl;
   }
 */
 
-/* Funzione che riceve in input un itero anno e restituisce una stringa
-bool bisestile(int anno){
-       if (anno % 4 == 0 && anno % 100 =! 0 || anno % 400 == 0){
-       return true;
-       }
-       else {
+// Funzione che riceve in input un itero anno e restituisce una stringa
 
+bool bisestile(int anno)
+{
+    if (anno % 4 == 0 && anno % 400 == 0)
+    {
+        return true;
+        cout << "L'hanno inserito è bisestile";
+    }
+    else if (anno % 100 != 0)
+    {
         return false;
-       }
+        cout << "l'hanno inserito non è bisestile";
+    }
+    else
+    {   return false;
+        cout << "L'hanno inserito non è bisestile";
+    }
+    
+}
+/* Funzione equazione avrà in input 3 int a,b,c e non restituisce niente
 
-
-      }
-  Funzione equazione avrà in input 3 int a,b,c e non restituisce niente
-/*
 void equazione(int a, int b, int c){
 double x1, x2;
 double delta = b * b - 4 * a * c;
 if (delta<0){
 cout << "l'equazione non ha soluzioni reali"; << endl;
 } else if (delta == 0){
-    double x = -b/(2*a);
+   double x = -b/(2*a);
 
 } else {
-    double x1 = (-b + sqrt(delta))/(2*a);
-    double x2 = (+b + sqrt(delta))/(2*a);
+   double x1 = (-b + sqrt(delta))/(2*a);
+   double x2 = (+b + sqrt(delta))/(2*a);
 }
-    cout <<"l'equazione presenta due soluzioni   " <<x1 << "e" << x2;
+   cout <<"l'equazione presenta due soluzioni   " <<x1 << "e" << x2;
 
 }
- /*   Funzione che riceve in input un intero e non restituisce nulla.
+   Funzione che riceve in input un intero e non restituisce nulla.
 
 bool isEven(int x){
 
-    int resto = 0;
-    if (resto % 2 == 0){
-      cout << x <<"  è pari\n";
-    }
-    else  {
-      return x << "è dispari\n";
-  }
-
-}
-*/
-// Funzione che chiede in input 3 int e restituisce un valore di tipo boolean.
-/* bool isBetween(int a, int b, int c){
-
-   if (b<a && b>c){
-         return true;
+   int resto = 0;
+   if (resto % 2 == 0){
+     cout << x <<"  è pari\n";
    }
-    else{
-      return  false;
-    }
+   else  {
+     return x << "è dispari\n";
+ }
+
+}
+
+// Funzione che chiede in input 3 int e restituisce un valore di tipo boolean.
+//bool isBetween(int a, int b, int c){
+
+  if (b<a && b>c){
+        return true;
+  }
+   else{
+     return  false;
+   }
 }
 */
-/**/
-void stampaTabelline(int n, int m)
+// funzione che stampa la tabellina inserendo in input 2 interi e non restituendo nulla
+
+/*void stampaTabelline(int n, int m)
 {
 
     int tabellina = 0;
@@ -131,15 +140,18 @@ void stampaTabelline(int n, int m)
 
         cout << tabellina << " ";
     }
-}    
-    int main()
-    {
-        /* Prova funzione tabellina
-        stampaTabellina(12);
-    */
-   /*
-          // Prova funzione tabellina 
-         stampaTabelline(3,5);
-     */    
+}
+*/
+int main()
+{
+    /* Prova funzione tabellina
+    stampaTabellina(12);
+*/
+    /*
+           // Prova funzione tabellina
+          stampaTabelline(3,5);
+      */
+    // Prova bisestile
 
-    }
+    bisestile(2023);
+}
