@@ -3,9 +3,9 @@
 
 using namespace std;
 
-//funzione che stamperà la tabellina del numero inseritò
-//chiede intero in input
-//non restituisce nulla
+   //funzione che stamperà la tabellina del numero inseritò
+   //chiede intero in input
+   //non restituisce nulla
 void stampaTabellina(int x)
 
 {
@@ -35,9 +35,9 @@ int piuGrande(int x, int y)
     }
     return max;
 }
-//Funzione che calcolera se sei maggiorenne o no
-//riceve in input un intero
-//non restituisce nulla
+   //Funzione che calcolera se sei maggiorenne o no
+   //riceve in input un intero
+   //non restituisce nulla
 void buttaFuori(int eta)
 {
 
@@ -50,9 +50,9 @@ void buttaFuori(int eta)
         cout << "Mi dispiace, sei troppo giovane" << endl;
     }
 }
-//funzione che dati tre numeri interi li ordinerà in ordine decrescente
-//avrà in input tre numeri interi
-//non restituisce niente
+   //funzione che dati tre numeri interi li ordinerà in ordine decrescente
+   //avrà in input tre numeri interi
+   //non restituisce niente
 void decrescente(int a, int b, int c)
 {
     minore = a;
@@ -64,18 +64,18 @@ void decrescente(int a, int b, int c)
     }
 }
 
-Funzione che chiede in input una stringa e non restituisce nulla
-    /*void stampaNome(string nome){
+    //Funzione che stamperà il nome inserito sotto forma di stringa
+    //chiede in input una stringa
+    //non restituisce nulla
+void stampaNome(string nome){
 
           cout<< "Il tuo nome è"<<nome <<endl  ;
 
       }
-    */
-
-    Funzione che riceve in input un itero anno e restituisce una stringa
-
-    bool
-    bisestile(int anno)
+    //Funzione che calcolerà se l'anno inserito è bisestile
+    //avrà in input un intero anno
+    //restituirà un boolean
+bool bisestile(int anno)
 {
     if (anno % 4 == 0 && anno % 400 == 0)
     {
@@ -96,8 +96,7 @@ Funzione che chiede in input una stringa e non restituisce nulla
     //funzione che calcolerà un equazione di secondo grado
     //chiederà in input 3 interi a, b, c.
     //non restituisce nulla.
-
-    void equazione(int a, int b, int c)
+void equazione(int a, int b, int c)
 {
     double x1, x2;
     double delta = b * b - 4 * a * c;
@@ -120,7 +119,7 @@ Funzione che chiede in input una stringa e non restituisce nulla
      //Funzione che riceve in input un intero e non restituisce nulla.
      //funzione che riceve in input un intero
      //funzione che restiruisce un boolean
-    bool isEven(int x)
+bool isEven(int x)
 {
 
     int resto = 0;
@@ -137,7 +136,7 @@ Funzione che chiede in input una stringa e non restituisce nulla
     //Funzione che calcola un numero b se compreso tra a e c
     //avra in input
     //restituirà un boolean
-   bool isBeetwen(int a, int b, int c){
+bool isBeetwen(int a, int b, int c){
     if (b < a && b > c)
     {
         return true;
@@ -151,7 +150,7 @@ Funzione che chiede in input una stringa e non restituisce nulla
     //funzione che stampa la tabellina di n per m volte
     //riceverà in input 2 interi
     //non restituisce niente
-    void stampaTabelline(int n, int m)
+void stampaTabelline(int n, int m)
 {
 
     int tabellina = 0;
@@ -167,7 +166,7 @@ Funzione che chiede in input una stringa e non restituisce nulla
    // funzione che calcola il costo totale dati interessi e prezzo d'acquisto.
    // riceve in input un double ed un intero.
    // restituisce un double
-   double costoTotale(double prezzo, int interesse)
+double costoTotale(double prezzo, int interesse)
 {
     cout << "inserisci il prezzo del prodotto";
     cin >> prezzo;
