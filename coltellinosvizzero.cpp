@@ -66,7 +66,7 @@ cout << "Mi dispiace, sei troppo giovane" << endl;
 */
 
 // Funzione che riceve in input un itero anno e restituisce una stringa
-
+/*
 bool bisestile(int anno)
 {
     if (anno % 4 == 0 && anno % 400 == 0)
@@ -152,6 +152,7 @@ int main()
           stampaTabelline(3,5);
       */
     // Prova bisestile
+  //  bisestile(2023);
 
-    bisestile(2023);
+  
 }
