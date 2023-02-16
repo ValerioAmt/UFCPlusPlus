@@ -18,5 +18,5 @@ bool ciSonoDoppie(string ottagono){
 
 int main(){
    string
-  bool ciSonoDoppie()
+  bool ciSonoDoppie(string otta)
 }
