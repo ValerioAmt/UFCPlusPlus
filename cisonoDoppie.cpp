@@ -3,20 +3,22 @@
 
 using namespace std;
 
-bool ciSonoDoppie(string ottagono){
-   
-   for(int i = 0;i < nome.lenght();i ++)
-     if (nome[i] == nome[i + 1] ){
+bool ciSonoDoppie(string ottagono)
+{
+   for (int i = 0; i < ottagono.length(); i++)
+   {
+      if (ottagono[i] == ottagono[i + 1])
+      {
          return true;
-     }
-     else {
-        return false;
-     }
-
-
+      }
+      else
+      {
+         return false;
+      }
+   }
 }
+int main()
+{
 
-int main(){
-   string
-  bool ciSonoDoppie(string otta)
+   ciSonoDoppie("parola");
 }
