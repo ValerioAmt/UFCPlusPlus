@@ -21,5 +21,5 @@ bool cerca(string ciaone, char bomba)
 }  
 int main(){
 
-cerca("gatto", 'o');
+cerca("pizza", 'z');
 }
