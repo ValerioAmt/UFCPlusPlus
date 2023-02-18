@@ -19,6 +19,8 @@ bool ciSonoDoppie(string ottagono)
 }
 int main()
 {
-
+ // per richiamare funzione non serve dichiarare stringa nel main
+ //se dovessi usare stringa ottagono per un'operazione 
    ciSonoDoppie("parola");
+   cout << ciSonoDoppie("parola");
 }

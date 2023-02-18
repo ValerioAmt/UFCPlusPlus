@@ -19,7 +19,8 @@ bool cerca(string frase, char carattere)
     return false;
 }
 int main()
-{
+{ char c;
+  string parola;
 
-    cerca("pizza", 'z');
+    cerca("ottagono", 't');
 }
