@@ -16,11 +16,12 @@ string trovaParolaLunga()
                   parolaPiuLunga = nuovaParola;
             }
       }
-      cout << "la parola inserità con piu caratteri è " << parolaPiuLunga << "\n";
-          return trovaParolaLunga;
+      return trovaParolaLunga();
 }
 
-int main(){
+int main()
+{
 
-     string trovaParolaLunga()
+      string parolaPiuLunga = trovaParolaLunga();
+      cout << "la parola inserità con piu caratteri è " << parolaPiuLunga << "\n";
 }
