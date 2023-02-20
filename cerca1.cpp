@@ -11,16 +11,21 @@ bool cerca(string frase, char carattere)
         if (frase[i] == carattere)
         { // frase = pizza; carattere = z
 
-            cout << "Sono stati trovati caratteri corrispondenti. Il carattere è: " << carattere << endl;
+            
             return true; // appena trovo char uguale ad un char della stringa chiudo la funzione e ritorno true
         }
     }
-    cout << "non ci sono caratteri corrispondenti\n";
     return false;
 }
-int main()
-{ char c;
-  string parola;
+int main() 
+{ 
+     bool risultato = cerca("ottagono", 't');
+     if (risultato = 1){
+        cout << "La parola contiene doppie\n";
+       } else {
+            cout << "La parola non contiene doppie\n";
+        }
+     
 
-    cerca("ottagono", 't');
+     
 }

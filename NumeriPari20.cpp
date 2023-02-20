@@ -4,20 +4,17 @@ using namespace std;
 
 
 int(main){
-
-     int i;
-
-
-     for (int i = 0; i<=20; i++){
+int numDaStampare;
+    for (int i = 2; i <= 20; i++){
 
         if (i % 2 == 0) {
+              numDaStampare = i;  
                 
-                cout << i;
          }
-            
+            cout << numDaStampare;
      }
 
-
+    
 
      } 
 
